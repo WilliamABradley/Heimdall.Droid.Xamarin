@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <add-node path="/api/package[@name='rx']/class[@name='Subscriber']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
+      <parameter name="p0" type="java.lang.Object">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='rx.subjects']/class[@name='Subject']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
+      <parameter name="p0" type="java.lang.Object">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeFromAsync.BaseAsyncEmitter']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
+      <parameter name="p0" type="java.lang.Object">
+      </parameter>
+    </method>
+  </add-node>
+  <attr path="/api/package[@name='rx.internal.util.atomic']/class[@name='BaseLinkedAtomicQueue']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.atomic']/class[@name='AtomicReferenceArrayQueue']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ReplaySupplierBuffer']/method[@name='call' and count(parameter)=0]" name="managedName">CallConnectableObservable</attr>
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeJoin.ResultSink']" />
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeJoin.ResultSink.LeftSubscriber']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeJoin.ResultSink.LeftSubscriber.LeftDurationSubscriber']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeJoin.ResultSink.RightSubscriber']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeJoin.ResultSink.RightSubscriber.RightDurationSubscriber']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.ResultManager.LeftDurationObserver']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.ResultManager.LeftObserver']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.ResultManager.RightDurationObserver']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.ResultManager.RightObserver']" />-->
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.WindowObservableFunc']" />
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeGroupJoin.WindowObservableFunc.WindowSubscriber']" />-->
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ReplaySupplierBuffer']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ReplaySupplierBufferTime']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ReplaySupplierNoParams']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ReplaySupplierTime']" />
+  <attr path="/api/package[@name='rx.internal.operators']/class[@name='OperatorTimeoutBase']" name="visibility">public</attr>
+  <!-- <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorBufferWithSingleObservable.BufferingSubscriber']" />
+    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorBufferWithStartEndObservable.BufferingSubscriber']" />
+    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorBufferWithTime.ExactSubscriber']" />
+    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorBufferWithTime.InexactSubscriber']" />
+    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorTakeUntilPredicate.ParentSubscriber']" />-->
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='ConcurrentCircularArrayQueueL0Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='MpmcArrayQueueConsumerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueL3Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='MpmcArrayQueueL2Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueue']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueueConsumerNodeRef']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueueConsumerNodeRef']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='MpmcArrayQueueProducerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueuePad1']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueueProducerNodeRef']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='BaseLinkedQueuePad0']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='MpmcArrayQueueL1Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscUnboundedArrayQueueConsumerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueL3Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueProducerIndexCacheField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueConsumerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscUnboundedArrayQueueConsumerColdField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueMidPad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueL2Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscUnboundedArrayQueueL2Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueConsumerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueProducerFields']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscUnboundedArrayQueueProducerColdFields']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueL2Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueProducerField']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueL1Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscUnboundedArrayQueueProducerFields']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpmcArrayQueueL1Pad']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rx.internal.util.unsafe']/class[@name='SpscArrayQueueColdField']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorToMultimap.DefaultMultimapCollectionFactory']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorToMap.DefaultToMapFactory']" />
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorWindowWithTime.ExactSubscriber']" />-->
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorWindowWithTime.InexactSubscriber']" />-->
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorToMultimap.DefaultToMultimapFactory']" />
+  <!--    <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorWindowWithStartEndObservable.SourceSubscriber']" />-->
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.ToArrayFunc1']" />
+  <attr path="/api/package[@name='rx.internal.operators']/class[@name='OperatorDistinctUntilChanged']/method[@name='call' and count(parameter)=2 and parameter[1][@type='U'] and parameter[2][@type='U']]" name="managedName">TryCall</attr>
+  <!--<attr path="/api/package[@name='rx.internal.operators']/class[@name='BackpressureUtils']/method[@name='postCompleteDone' and count(parameter)=3]/parameter[@name='p1']" name="managedType">Java.Util.IQueue</attr>
+    <attr path="/api/package[@name='rx.internal.operators']/class[@name='BackpressureUtils']/method[@name='postCompleteDone' and count(parameter)=3]/parameter[@name='p2']" name="managedType">RX.Subscriber</attr>
+    <attr path="/api/package[@name='rx.internal.operators']/class[@name='BackpressureUtils']/method[@name='postCompleteDone' and count(parameter)=4]/parameter[@name='p1']" name="managedType">Java.Util.IQueue</attr>
+    <attr path="/api/package[@name='rx.internal.operators']/class[@name='BackpressureUtils']/method[@name='postCompleteDone' and count(parameter)=4]/parameter[@name='p2']" name="managedType">RX.Subscriber</attr>
+    <attr path="/api/package[@name='rx.internal.operators']/class[@name='BackpressureUtils']/method[@name='postCompleteDone' and count(parameter)=4]/parameter[@name='p3']" name="managedType">RX.Functions.IFunc1</attr>-->
+  <!--    <attr path="/api/package[@name='rx']/class[@name='Observable']/method[@name='extend']/parameter[@name='p0']" name="managedType">RX.Functions.IFunc1</attr>-->
+
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.RetryNotificationDematerializer']" />
+
+  <remove-node path="/api/package[@name='rx.observables']/class[@name='AsyncOnSubscribe.AsyncOnSubscribeImpl']" />
+  <remove-node path="/api/package[@name='rx.observables']/class[@name='AsyncOnSubscribe.AsyncOuterManager']" />
+  <remove-node path="/api/package[@name='rx.subjects']/class[@name='ReplaySubject.ReplayState']" />
+  <remove-node path="/api/package[@name='rx.observables']/class[@name='AsyncOnSubscribe.UnicastSubject.State']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='CompletableOnSubscribeConcat.CompletableConcatSubscriber']" />
+  <remove-node path="/api/package[@name='rx.subjects']/class[@name='UnicastSubject.State']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='CompletableOnSubscribeMerge.CompletableMergeSubscriber']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeFlattenIterable.OnSubscribeScalarFlattenIterable']" />
+  <remove-node path="/api/package[@name='rx.internal.schedulers']/class[@name='TrampolineScheduler.TimedAction']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='InternalObservableUtils.SelectorAndObserveOn']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='ScalarSynchronousObservable.JustOnSubscribe']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='ScalarSynchronousObservable.ScalarAsyncOnSubscribe']" />
+  <remove-node path="/api/package[@name='rx']/class[@name='Observable.OnSubscribeExtend']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorMerge.MergeSubscriber']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='ScalarSynchronousSingle.DirectScheduledEmission']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorGroupBy.State']" />
+  <remove-node path="/api/package[@name='rx.internal.util']/class[@name='ScalarSynchronousSingle.NormalScheduledEmission']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorSwitch.SwitchSubscriber']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorZip.ZipSubscriber']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OperatorRetryWithPredicate.SourceSubscriber']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='BlockingOperatorLatest.LatestObserverIterator']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='BlockingOperatorNext.NextObserver']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='BufferUntilSubscriber.OnSubscribeAction']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='CachedObservable.CachedSubscribe']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']/class[@name='OnSubscribeToObservableFuture.ToObservableFuture']" />
+  <remove-node path="/api/package[@name='rx.schedulers']/class[@name='TestScheduler.CompareActionsByTime']" />
+</metadata>
